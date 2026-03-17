@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
       - name: migrate
-        image: sueesh144/steakhouse:latest
+        image: sueesh144/party-den:latest
         command: ["python", "manage.py", "migrate"]
         envFrom:
         - configMapRef:
