@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: django-app
-        image: sueesh144/party-den:latest
-        command: ["gunicorn", "--bind", "0.0.0.0:8000", "party_den_project.wsgi:application"]
+        image: sueesh144/steakhouse:latest
+        command: ["gunicorn", "--bind", "0.0.0.0:8000", "restaurant.wsgi:application"]
         ports:
         - containerPort: 8000
         envFrom:
