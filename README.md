@@ -1,4 +1,4 @@
-how to use it ?
+how to deploy this application using argoCD ?
 
 STEP-1:
 CREATE CLUSTER USING KOPS/eks
